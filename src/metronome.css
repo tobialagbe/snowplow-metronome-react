@@ -1,0 +1,51 @@
+.main {
+  margin: 0 !important;
+  background-color: #161020;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding: 70px 10px;
+}
+
+.title {
+  color: #8eacff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+.songs {
+  margin-top: 30px;
+}
+
+.songsTitle {
+  color: rgb(142, 172, 255);
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.78px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.songList {
+  color: rgba(255, 255, 255, 0.808);
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.songList li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+  .bpmBox {
+    width: 80%;
+  }
+}

@@ -1,0 +1,8 @@
+.bpmBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 60%; */
+  width: 350px;
+  margin-top: 30px;
+}

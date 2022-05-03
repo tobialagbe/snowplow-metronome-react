@@ -1,0 +1,58 @@
+.indicator {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 1.33px;
+  text-align: center;
+  /* background-color: #64bca4; */
+  color: #161020;
+  height: 132px;
+  width: 132px;
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.pulse {
+  background-color: #64bca4;
+  opacity: 1;
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(3px);
+  position: absolute;
+  animation-name: pulse;
+  /* animation-duration: 1s; */
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    width: 132px;
+    height: 132px;
+    opacity: 1;
+  }
+  100% {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+  }
+}
+
+.holder {
+  background-color: #64bca4;
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 5;
+}
